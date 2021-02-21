@@ -231,3 +231,82 @@ nav ul {
   color: white;
   font-size: 2rem;
 }
+
+.main-page-header {
+  display: flex;
+  flex-direction: column;
+  min-height: 30vh;
+  justify-content: center;
+  align-items: center;
+}
+.main-page-header h2 {
+  padding: 3.2rem;
+}
+.main-page-header #logo {
+  text-decoration: none;
+  color: black;
+}
+.search-form {
+  padding: 3.2rem;
+  display: flex;
+}
+.search-form input {
+  font-size: 3.2rem;
+  padding: 0.8rem;
+  width: 100%;
+  border: none;
+  border: 2px solid rgb(32, 32, 32);
+}
+.search-form button {
+  border: none;
+  padding: 0.8rem;
+  font-size: 1.62rem;
+  background: rgb(32, 32, 32);
+  color: white;
+  cursor: pointer;
+}
+.gallery-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+  padding: 0.8rem 0;
+}
+.gallery-info p {
+  color: gray;
+  font-size: 2rem;
+}
+.gallery-info a {
+  color: gray;
+  font-size: 1.6rem;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  padding: 3rem 0;
+  width: 80%;
+  margin: auto;
+  row-gap: 7rem;
+  column-gap: 4rem;
+}
+.gallery-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nav-button {
+  min-height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.more {
+  padding: 2rem 4.5rem;
+  background: rgb(32, 32, 32);
+  color: white;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
