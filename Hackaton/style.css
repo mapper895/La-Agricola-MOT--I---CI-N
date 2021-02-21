@@ -134,3 +134,100 @@ nav ul {
     transform: rotate(-8deg);
   }
 }
+
+.login-container {
+  background: #fff;
+  width: 100%;
+  max-width: 111rem; /*1110px*/
+  height: 100vh;
+  max-height: 80rem; /* 800px */
+  overflow-y: auto;
+  box-shadow: 0px 2rem 3rem rgba(0, 0, 0, 0.05);
+  border-radius: 1rem; /* 10px */
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  z-index: 100;
+}
+.header-login {
+  width: 100%;
+  width: 100%;
+  padding: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-login .header-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.header-login .header-container .title {
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 4rem;
+}
+.header-login .header-container button,
+.boton-container button {
+  background: black;
+  width: 16rem; /* 250px */
+  margin-left: 2rem; /* 20px */
+  border: none;
+  border-radius: 1rem; /* 10px */
+  color: #fff;
+  font-family: "Work Sans", sans-serif;
+  height: 6rem; /* 60px */
+  padding: 2rem 3rem; /* 20px 30px */
+  font-size: 2rem; /* 20px */
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  outline: none;
+}
+
+.form {
+  padding: 0 4rem; /* 40px */
+  height: 100%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.form input {
+  width: 100%;
+  text-align: center;
+  padding: 4rem 0;
+  font-family: "Work Sans", sans-serif;
+  font-size: 4rem; /* 40px */
+  text-transform: uppercase;
+  border: none;
+  border-bottom: 2px solid gray;
+  outline: none;
+}
+.form input::placeholder {
+  color: rgba(0, 0, 0, 0.2);
+}
+.svg svg {
+  width: 100%;
+  max-height: 20rem; /* 200px */
+  margin-bottom: 2rem;
+}
+.boton-container {
+  display: flex;
+  justify-content: center;
+  margin: 4rem 0; /* 40px */
+}
+.boton-container button {
+  background: green;
+  width: 20rem;
+  justify-content: center;
+}
+.boton-container button a {
+  color: white;
+  font-size: 2rem;
+}
